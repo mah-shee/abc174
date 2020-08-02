@@ -4,5 +4,8 @@ use proconio::{fastout, input};
 #[fastout]
 fn main() {
     input! {
+        n: usize,
+        d: usize,
+        points: [(isize, isize); n],
     }
 }

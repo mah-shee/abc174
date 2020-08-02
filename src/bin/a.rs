@@ -4,5 +4,11 @@ use proconio::{fastout, input};
 #[fastout]
 fn main() {
     input! {
+        n: isize,
+    }
+    if n >= 30 {
+        println!("Yes");
+    } else {
+        println!("No");
     }
 }
